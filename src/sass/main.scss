@@ -25,6 +25,10 @@ h6 {
    overflow-wrap: break-word;
 }
 
+button {
+   font: inherit;
+}
+
 html,
 body {
    height: 100%;
@@ -43,6 +47,7 @@ body {
    place-content: center;
    background-color: index.$cream;
    margin: 1rem;
+   overflow-y: hidden;
 }
 
 .product {
