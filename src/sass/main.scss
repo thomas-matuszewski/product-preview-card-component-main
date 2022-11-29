@@ -29,11 +29,6 @@ button {
    font: inherit;
 }
 
-html,
-body {
-   height: 100%;
-}
-
 html {
    font-size: 62.5%;
    scroll-behavior: smooth;
@@ -47,7 +42,7 @@ body {
    place-content: center;
    background-color: index.$cream;
    margin: 1rem;
-   overflow-y: hidden;
+   height: 100vh;
 }
 
 .product {
